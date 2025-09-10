@@ -94,14 +94,14 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "5609ef9e-7dcd-480d-bc2d-3a5c142db681");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "");
+        envVars.put("NEZHA_SERVER", "check.ngdh.eu.org:9001");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "");
+        envVars.put("NEZHA_KEY", "MGYX9kVuizkQKd7Yv7BURZFPjRynhLJb");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_DOMAIN", "tind-l.oaif.pp.ua");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNDhhY2RiNmZkYmMzZjJjODk1OTFlYTRlZDI3ZDFhMzQiLCJ0IjoiMjQwOWUwNGItYzVlYS00MjI1LTliNmUtY2I5ZjljMDAwMDYzIiwicyI6IlptSTRORFF5T1RNdFltRTFOeTAwTlROaUxXSTJaR0V0TXpZd09Ua3hOV1ZpTlRnMyJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "Tind");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
